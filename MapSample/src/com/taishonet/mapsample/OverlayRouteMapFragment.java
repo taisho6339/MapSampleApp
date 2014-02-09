@@ -51,7 +51,7 @@ public class OverlayRouteMapFragment extends MapFragment implements
 
 	public void requestSearchRoute() {
 		Map<String, String> values = new HashMap<String, String>();
-		values.put("origin", "東京都千代田区岩本町２丁目１３−６");
+		values.put("origin", "東京都墨田区押上１−１−２");
 		values.put("destination", "東京都渋谷区宇田川町２５−９");
 		values.put("sensor", "false");
 		values.put("mode", "walking");
